@@ -4,15 +4,17 @@
   "info": {
     "singularName": "todo",
     "pluralName": "todos",
-    "displayName": "todo"
+    "displayName": "todo",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
     "TodoText": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }
